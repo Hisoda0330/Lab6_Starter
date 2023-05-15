@@ -90,8 +90,8 @@ class RecipeCard extends HTMLElement {
       font-size: 12px;
     }`;
     // A5. TODO - Append the <style> and <article> elements to the Shadow DOM
-    shadowEl.append(styleEl);
-    shadowEl.append(articleEl);
+    shadowEl.appendChild(styleEl);
+    shadowEl.appendChild(articleEl);
     
   }
 
